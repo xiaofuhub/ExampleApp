@@ -225,6 +225,7 @@ if toolbarusercontrol = true then
 else
 	ls_usercontrol = "no"
 end if
+//test
 
 f_set_profile("application", "showtext", ls_showtext)
 f_set_profile("application", "usercontrol", ls_usercontrol)
