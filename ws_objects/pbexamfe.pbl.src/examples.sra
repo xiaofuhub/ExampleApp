@@ -183,6 +183,7 @@ if ls_usercontrol = "no" then toolbarusercontrol = false
 
 // Open the front-end window
 Open(w_about)
+
 end event
 
 event systemerror;//////////////////////////////////////////////////////////////////////////////
