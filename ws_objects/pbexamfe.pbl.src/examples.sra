@@ -182,7 +182,7 @@ f_get_profile("application", "usercontrol", ls_usercontrol)
 if ls_usercontrol = "no" then toolbarusercontrol = false
 
 // Open the front-end window
-Open(w_about)// aaa
+Open(w_about)// a
 end event
 
 event systemerror;//////////////////////////////////////////////////////////////////////////////
