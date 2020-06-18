@@ -2,7 +2,7 @@
 forward
 global type q_016_1 from window
 end type
-type cb_1_none from commandbutton within q_016_1
+type cb_1_test01 from commandbutton within q_016_1
 end type
 end forward
 
@@ -18,22 +18,22 @@ boolean resizable = true
 long backcolor = 67108864
 string icon = "AppIcon!"
 boolean center = true
-cb_1_none cb_1_none
+cb_1_test01 cb_1_test01
 end type
 global q_016_1 q_016_1
 
 on q_016_1.create
-this.cb_1_none=create cb_1_none
-this.Control[]={this.cb_1_none}
+this.cb_1_test01=create cb_1_test01
+this.Control[]={this.cb_1_test01}
 end on
 
 on q_016_1.destroy
-destroy(this.cb_1_none)
+destroy(this.cb_1_test01)
 end on
 
-type cb_1_none from commandbutton within q_016_1
-integer x = 1966
-integer y = 744
+type cb_1_test01 from commandbutton within q_016_1
+integer x = 690
+integer y = 936
 integer width = 402
 integer height = 92
 integer taborder = 10
