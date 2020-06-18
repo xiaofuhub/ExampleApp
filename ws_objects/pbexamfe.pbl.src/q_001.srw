@@ -53,8 +53,8 @@ string text = "none"
 end type
 
 type cb_1 from commandbutton within q_001
-integer x = 1134
-integer y = 704
+integer x = 1102
+integer y = 940
 integer width = 402
 integer height = 92
 integer taborder = 10
